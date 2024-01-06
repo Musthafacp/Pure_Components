@@ -4,7 +4,7 @@
 
 # Answer :
 
-    PureComponent:
+#    PureComponent:
 
         Performance Benefits:
 
@@ -16,7 +16,7 @@
         Suitable for scenarios where you have complex state or props objects, and you want to avoid unnecessary renders when the data remains the same.
 
 
-        Simple Component:
+#    Simple Component:
 
         Performance Considerations:
 

@@ -20,11 +20,10 @@ class PureCounterComponent extends PureComponent {
   };
 
   handlePureToggle = () => {
+    console.log("Toggle :- ", this.state.toggle);
     this.setState((prevState) => ({
       toggle: !prevState.toggle
-    }), () => {
-      console.log("Toggle :- ", this.state.toggle);
-    });
+    }));
   };
 
   render() {
