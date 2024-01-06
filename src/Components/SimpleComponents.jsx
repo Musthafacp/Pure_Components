@@ -21,7 +21,7 @@ class SimpleComponent extends Component {
   };
 
   handleToggle = () => {
-    console.log("Toggle :- ", this.state.toggle);
+    console.log("Toggle :- ", !this.state.toggle);
     this.setState(
       (prevState) => ({
         toggle: !prevState.toggle,
